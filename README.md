@@ -27,13 +27,13 @@ I have created the schematic and PCB in this repository with the open and free [
 
 The PCB file looks as follows.
 
-![alt text](https://github.com/JurgenVanGorp/an-mcp23017-driven-relay-board/blob/main/images/PCB_Overview.png)
+![alt text](https://github.com/JurgenVanGorp/an-MCP23017-driven-high-voltage-sensor-board/blob/main/images/PCB_Layout.png)
 
 The GERBER PCB Files are included in the package, so you don't need to compile these for yourself.
 
 There are many companies that will be able to create the PCB files for you. My personal favorite is [Eurocircuits.eu](https://www.eurocircuits.com/), but that's a personal choice of course. You can also create your own PCBs; the PDF file is added in the repository. But let's be honest, ordering the PCB looks a lot more professional and will last longer.
 
-![alt text](https://github.com/JurgenVanGorp/an-mcp23017-driven-relay-board/blob/main/images/DriverPCB.png)
+![alt text](https://github.com/JurgenVanGorp/an-MCP23017-driven-high-voltage-sensor-board/blob/main/images/DriverPCB.jpg)
 
 **INFO** In honnesty: the image above does not fully match the PCB you can find in the repository. In this prototype I made use of RJ10 connectors for the I2C connections, but these connectors are difficult to find. If you find one, it will probably have a slightly footprint. For that reason I used 'standard' 3-pin connectors in the final PCB layout.
 

@@ -39,7 +39,7 @@ There are many companies that will be able to create the PCB files for you. My p
 
 This is the list of components used, and where I have found them.
 
-| Quantity | Component    | Value                     | Source                 | Cost Estimate |
+| Quantity | Component    | Value                     | Source                 | ~cost/Piece   |
 |:--------:|--------------|--------------------------:|------------------------|--------------:|
 | 1        | PCB Board    | See Gerber files | [eurocircuits.eu](https://www.eurocircuits.eu) | € 35.00 | 
 | 9 | Resistor | 1K |  | € 0.10 | 
@@ -53,12 +53,14 @@ This is the list of components used, and where I have found them.
 | 1        | Connector 1x2 | DG350-3.5-03P    | [conrad.com](https://www.conrad.com/p/degson-dg350-35-02p-14-00ah-200-screw-terminal-2-mm-number-of-pins-2-green-200-pcs-1595136) | | 7        | 1x6 Spring connector | PTR 54191060051E | [conrad.com](https://www.conrad.com/p/ptr-54191060051e-spring-loaded-terminal-075-mm-number-of-pins-6-pebble-grey-1-pcs-569770) | € 0.36 | 
 | 3        | Jumper       | N/A      | e.g. [conrad.com](https://www.conrad.com/p/tru-components-shorting-jumper-contact-spacing-254-mm-pins-per-row2-content-100-pcs-1693950) | € 0.35 | 
 | 15 | Relay | RT314730 | [conrad.com](https://www.conrad.be/p/te-connectivity-rt314730-printrelais-230-vac-16-a-1x-wisselcontact-1-stuks-504255) | € 6.22 | 
-| 4 | Relay | G5V-1-5DC | [conrad.com](https://eu.mouser.com/ProductDetail/Omron/G5V-1-2-DC5?qs=sGAEpiMZZMsKEdP9slC0YbH1hXJZnuIH7AhUMezYhKg%3D) | € 8.00 | 
-| 1        | IC           | MCP23017                  | [mouser.com](https://eu.mouser.com/ProductDetail/Microchip/MCP23017-E-SP?qs=sGAEpiMZZMsVgcksf1EMUq%252Bl%252ByrW%252Br2s)| | 2        | 14 pins socket | MCP23017                  | [mouser.com](https://www.conrad.com/p/tru-components-ic-socket-contact-spacing-254-mm-762-mm-number-of-pins-14-1-pcs-1568704) | € 0.40 |
+| 4 | Relay | G5V-1-5DC | [conrad.com](https://eu.mouser.com/ProductDetail/Omron/G5V-1-2-DC5?qs=sGAEpiMZZMsKEdP9slC0YbH1hXJZnuIH7AhUMezYhKg%3D) | € 1.45 | 
+| 1        | IC           | MCP23017                  | [mouser.com](https://eu.mouser.com/ProductDetail/Microchip/MCP23017-E-SP?qs=sGAEpiMZZMsVgcksf1EMUq%252Bl%252ByrW%252Br2s)| € 1.35 |
+| 2        | 14 pins socket | MCP23017                  | [mouser.com](https://www.conrad.com/p/tru-components-ic-socket-contact-spacing-254-mm-762-mm-number-of-pins-14-1-pcs-1568704) | € 0.40 |
 | 1        | LED "IDENT"  | Green 5 mm | [conrad.com](https://www.conrad.com/p/vishay-tlhr-5400-led-wired-super-red-circular-5-mm-10-mcd-30-30-ma-2-v-184389) | € 0.20 | 
 | 1        | LED "POWER"  | Red 5 mm | [conrad.com](https://www.conrad.com/p/kingbright-l-7113id-led-wired-red-circular-5-mm-45-mcd-30-20-ma-2-v-180139) | € 0.20 | 
 | 1        | 12V to 5V DC | OKI-78SR-5_1.5-W36H-C **(1)** | [mouser.com](https://eu.mouser.com/ProductDetail/Murata/OKI-78SR-5-15-W36H-C?qs=sGAEpiMZZMsbRVlHDoeFZD%252BySXGErvIJc3su7QBo1Is%3D) | € 3.64 | 
 | 4       | Diode        | 1N4007 | [conrad.com](https://www.conrad.com/p/diotec-si-rectifier-1n4007-do-204al-1000-v-1-a-162272) | € 0.09 | 
+| TOTAL   | | | | ~ € 153 |
 
 **(1)** The OKI-78SR is a 12V DC to 5V DC converter. It is pin-compatible with an [LM7805](https://eu.mouser.com/ProductDetail/Texas-Instruments/LM7805CT?qs=sGAEpiMZZMsFKQfwwdJx%2FxW4Tr%252BxPyoqmeSSFfZw3i4%3D). The current drawn is very low, so feel free to replace it with an LM7805 if you prefer.
 
@@ -116,7 +118,7 @@ The PCBs are 10cm x 16cm which allows mounting them in a standard EuroRack, as i
 
 An alternate way for mounting the board, is a DIN rail case. The components for a DIN rail mount are e.g. the following.
 
-| Quantity | Component                    | Description            | Source                 | Cost Estimate |
+| Quantity | Component                    | Description            | Source                 | ~cost/Piece   |
 |:--------:|------------------------------|------------------------|------------------------|--------------:|
 | 2 or 3   | Phoenix Contact UM108-FE     | DIN rail mount         | [conrad.com](https://www.conrad.com/p/phoenix-contact-um108-fe-din-rail-casing-base-1075-plastic-10-pcs-454634) | € 0.70 | 
 | 1        | Phoenix Contact UM108-SEFE/R | Right side panel       | [conrad.com](https://www.conrad.com/p/phoenix-contact-um108-sefer-din-rail-casing-side-panel-plastic-10-pcs-453303) | € 1.00 |
